@@ -14,6 +14,7 @@ int main(int argc , char **argv)
 {
   if (argc < 2) {
     printf("No option!\n");
+    printf("Example: 261900\n");
     exit(1);
   }
   int rec_num =  atoi(argv[1]);
